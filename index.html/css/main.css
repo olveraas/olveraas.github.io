@@ -5,8 +5,8 @@ body {
 
 footer {
     text-align: center;
-    background-color: rgb(128, 0, 53);
-    color: #fff;
+    background-color: rgb(231, 147, 248);
+    color: rgb(252, 189, 189);
     text-align: center;
     padding: 1.5rem;
 }
@@ -26,8 +26,8 @@ footer {
 }
 
 header {
-    background-color: rgb(128, 0, 53);
-    color: #fff;
+    background-color: rgb(231, 147, 248);
+    color: rgb(252, 189, 189);
     text-align: center;
     padding: 1.5rem;
 }
