@@ -1,7 +1,5 @@
-// function myFunction() {
-//     var x = document.lastModified;
-//     document.getElementById("demo").innerHTML = x;
-//   }
-document.write("Last Updated: " + document.lastModified +""); 
-
-// http://www.web-source.net/web_design_tips/last_modified_date_web_page_script.htm#.XqCiafl7lEY
+let actualDate = new Date();
+let year = actualDate.getFullYear();
+let modified = document.lastModified;
+document.getElementById("lastUpdate").textContent = modified;
+document.getElementById("currentYear").textContent = year;
