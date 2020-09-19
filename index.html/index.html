@@ -1,32 +1,41 @@
-<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alejandra Olvera</title>
-    <meta name="description" content="Assignment portal for Alejandra Olvera in WDD 230: Web 
-                                      Frontend Development at Brigham Young University - Idaho">
-    <link href="./css/main.css" rel="stylesheet">
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDD 230 - Assignment Portal - Alejandra Olvera</title>
+    <meta
+      name="description"
+      content="Assignment portal for Alejandra Olvera in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+    />
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <body>
     <header>
-        <img src="./images/ALEX photo.jpg." alt="ALEX">
-        <h1> Alejandra Olvera</h1> 
+      <img
+        class="rightalign"
+        src="images/ALEX photo.jpg"
+        alt="Alejandra"
+      />
+      <h1>Alejandra Olvera</h1>
     </header>
-    <h2> WDD 230: Assignment Portal</h2>
-    <nav>
-        <ul>
-            <li>Lesson 02: <a href="Lesson2">Assignment Link</a></li>
-            <li>Lesson 03: <a href="Lesson3">Assignment Link</a></li>
-            <li>Lesson 04: <a href="Lesson4">Link</a> | <a href="services">Link</a></li>
-        </ul>
-    </nav>
-    <footer>
-        <p>&copy; <span id="currentYear"></span> | Alejandra Olvera | Salt Lake City | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
-        <p class="spesh-spesh">Last Updated: <span id="latestModified"></span></p>
+    <main>
+      <h2>WDD 230: Assignment Portal</h2>
+      <ul>
+        <li>Lesson 02: <a href="#">Assignment Link</a></li>
+        <li>Lesson 03: <a href="#">Assignment Link</a></li>
+        <li>Lesson 04: <a href="#">Link</a> | <a href="#">Link</a></li>
+      </ul>
+    </main>
+    <footer class="home">
+      <p>
+        &copy; <span id="current-date"></span> | Alejandra Olvera | Salt lake City
+        <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+      </p>
+      <p>
+        <small>Last Updated:<span id="last-updated"></span></small>
+      </p>
     </footer>
-    <script src="js/lastModified.js"></script>
-</body>
+    <script src="js/currentDate.js"></script>
+    <script src="js/lastUpdated.js"></script>
+  </body>
 </html>
