@@ -1,5 +1,2 @@
-let latestMod = document.lastModified;
-let today = new Date();
-
-document.getElementById('latestModified').innerText = latestMod;
-document.getElementById('currentYear').textContent = today.getFullYear();
+const options = {year: 'numeric'};
+    document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', options);
