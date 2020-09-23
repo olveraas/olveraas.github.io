@@ -17,6 +17,10 @@ h1 {
   text-shadow: 4px 4px 4px #aaa;
 }
 
+h2 {font-family: "Tenali Ramakrishna";
+  color:#141B41;
+
+}
 header img {
   float: right;
   border-bottom: 1px solid black;
