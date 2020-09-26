@@ -1,20 +1,56 @@
 body {
-    font-size: 18px;
+    font: 18px Arial;
+    line-height: 2.5;
 }
 
-main {
-    margin: 10px auto;
-
+footer {
+    background-color: #9e3d3d;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem;
 }
 
-h1{
-    font-family: 'Fredoka One', cursive;
-
+ footer a {
+    color: #000000;
 }
-p {
-    border: 1px solid #333;
-    padding: 7px;
-    background-color: #ddd;
-    text-align: justify;
-    font-family: 'Prata', serif;
+
+header,
+h2,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+    border-radius: 15px;
+    
+}
+
+header {
+    font-family: 'Pacifico', cursive;
+    background-color: #9e3d3d;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+header img {
+    margin-top: 5px;
+    margin-right: 5px;
+    float: right;
+    border: rgb(255, 255, 255);
+    max-width: 150px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px #444;
+}
+
+@media screen and (max-width: 550px) {
+
+    body,
+    header,
+    main,
+    footer
+    {
+        display: block;
+    }
 }
