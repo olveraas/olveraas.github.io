@@ -13,7 +13,7 @@ footer {
 
 header,
 footer {
-  background-color: #0a151a;
+  background-color: #b41f65;
   color: white;
   text-align: center;
 }
@@ -53,7 +53,7 @@ main {
 }
 
 section h2 {
-  background-color: #81d4bb;
+  background-color: #c7068d;
   color: white;
   margin: 0 -5px;
   
@@ -69,11 +69,11 @@ section {
 
 section img {
   width: 100%;
-  border: 1px solid #4494A6;
+  border: 1px solid #cc72e2;
 }
 
 section a {
-  color: #272F32;
+  color:#b41f65;
   margin-bottom: 10px;
 }
 
