@@ -4,10 +4,11 @@ body {
     font: 18px ;
     font-family: 'Indie Flower', cursive;
     line-height: 2.5;
+    background-color: rgb(230, 191, 223);
 }
 
 footer {
-    background-color: #db2fdb;
+    background-color: #6d1e60;
     color: #ffffff;
     text-align: center;
     padding: 1.5rem;
@@ -30,7 +31,7 @@ footer {
 
 header {
     font-family: 'Pacifico', cursive;
-    background-color: #db2fdb;
+    background-color: #6d1e60;
     color: #fff;
     text-align: center;
     padding: 1.5rem;
