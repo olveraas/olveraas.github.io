@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color:#32667a;
-  background-color: #e7d6e7;
+  background-color: #dab2c8;
 }
 
 main,
@@ -14,7 +14,7 @@ footer {
 
 header,
 footer {
-  background-color: #b41f65;
+  background-color: #be519e;
   color: white;
   text-align: center;
 }
@@ -54,7 +54,7 @@ main {
 }
 
 section h2 {
-  background-color: #c7068d;
+  background-color: #be519e;
   color: white;
   margin: 0 -5px;
   
